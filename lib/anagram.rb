@@ -26,7 +26,7 @@ matchlistsplit[position] = splitlistwordarray
 match = []
 matchlistsplit.collect do |position, array|
   if wordarray == array
-    march << matchlist[position]
+    match << matchlist[position]
   end
 end
 
